@@ -147,3 +147,40 @@ header {
         }
     }
 }
+
+.portfolio {
+    height: 900px;
+    text-align: center;
+    background-color: rgb(30, 143, 196);
+    padding: 20px 0;
+    
+
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 70px;
+        color: white;
+    }
+
+    .img-flex-con {
+        display: flex;
+        justify-content: center;
+
+        .Protfolio-img-con {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+            margin: 40px;
+            
+    
+            & img {
+                width: 100%;
+                object-fit: cover;
+                height: 300px;
+                border: 10px solid rgb(0, 72, 114);
+            }
+        }
+    }
+
+    
+}
